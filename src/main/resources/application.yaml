@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: springboot-booking-system
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/booking_system_db
+    username: root
+    password: 123.com
+    driver: com.mysql.cj.jdbc.Driver
+
+  mvc:
+    servlet:
+      path: /api
