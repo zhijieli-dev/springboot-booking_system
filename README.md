@@ -77,7 +77,7 @@ Il database è composto da cinque tabelle principali:
 L'applicazione segue un'architettura a livelli (Layered Architecture).
 
 ```text
-src/main/java/com/example/booking/
+src/main/java/com/example/
 │
 ├── config/
 ├── controller/
