@@ -12,6 +12,10 @@ spring:
     hibernate:
       ddl-auto: validate
 
-  mvc:
-    servlet:
-      path: /api
+jwt:
+  secret: hqDBqX3Q2vwTxZWC7tVgqULH9y/rCWkB66wC2dvalAQ=
+  expiration: 86400000
+
+server:
+  port:
+    8080
